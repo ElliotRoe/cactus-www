@@ -25,3 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(122, 217, 138, 0);
+  }
+  50% {
+    box-shadow: 0 0 20px 10px rgba(122, 217, 138, 0.7); /* Adjust the color and size for the desired glow effect */
+  }
+}
